@@ -1,0 +1,29 @@
+# Bytecode & cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+.env
+
+# Logs & temp files
+*.log
+*.tmp
+
+# Screenshots (if captured during test runs)
+screenshots/
+
+# Local configuration
+config.json
+*.conf
+
+# OS & IDE-specific
+.DS_Store
+.idea/
+.vscode/
+
+# PyInstaller or executable build artifacts (optional)
+dist/
+build/
+*.spec
