@@ -25,16 +25,16 @@ This project is intended to demonstrate how endpoint data exfiltration can occur
 ## 📁 Project Structure
 
 python-keylogger/
-├── keylogger/
-│ ├── logger.py # Keylogging logic
-│ ├── config.py # Configurable options
-│ └── utils.py # Encryption, screenshots
-├── c2_server/
-│ ├── server.py # Flask server endpoint
-│ └── logs/ # Log file storage
-├── scripts/
-│ ├── run_local_test.py # Safe local test mode
-│ └── client_stager.py # Simulated payload drop
-├── screenshots/ # Screenshots from demo
-├── .gitignore
-└── README.md
+- keylogger/
+  - logger.py # Keylogging logic
+  - config.py # Configurable options
+  - utils.py # Encryption, screenshots
+- c2_server/
+  - server.py # Flask server endpoint
+  - logs/ # Log file storage
+- scripts/
+  - run_local_test.py # Safe local test mode
+  - client_stager.py # Simulated payload drop
+- screenshots/ # Screenshots from demo
+- .gitignore
+- README.md
