@@ -29,6 +29,7 @@ python-keylogger/
   - logger.py # Keylogging logic
   - config.py # Configurable options
   - utils.py # Encryption, screenshots
+  - __init__.py # Extra metadata
 - c2_server/
   - server.py # Flask server endpoint
   - logs/ # Log file storage
